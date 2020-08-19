@@ -1,0 +1,29 @@
+:root /*referenciando a raiz do documento, propriedades que serao como variaveis e podem ser replicadas pelos elementos*/ {
+    --title-color: #322153;
+    --primary-color:#34cb79;
+}
+
+* { /*alterar todos os seletores*/
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box; /*colocando o padrao para a borda, assim o padding nao estica a caixa e o maximo fica o 730 que coloquei(no form create-point)*/
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color)
+}
